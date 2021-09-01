@@ -7,58 +7,85 @@
     <div class="container">
       <div class="row">
         
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up">
-            <div class="icon-box icon-box-pink">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+            <div class="icon-box icon-box-red">
               <div class="icon"><i class="bx bxs-coin-stack"></i></div>
-              <h4 class="title"><a href="">Payments</a></h4>
+              <h4 class="title">Payments</h4>
               <p class="description">We offer financial services integration and management for e-commerce and other businesses</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box icon-box-cyan">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+            <div class="icon-box icon-box-yellow">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Business</a></h4>
+              <h4 class="title">Business</h4>
               <p class="description">We offer varied business management solutions for businesses such as ERP systems,POS systems,Payroll systems</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bx-cart-alt"></i></div>
-              <h4 class="title"><a href="">Commerce</a></h4>
-              <p class="description">We help you put your business up and running through development of e-commerce solutions on the go , depending on your industry</p>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><i class="bx bxs-component"></i></div>
+              <h4 class="title">Agritech</h4>
+              <p class="description">Through our innovative approach, we help customise agritech solutions to meet the industry needs for growth</p>
             </div>
           </div>
+         
+          
           
            
          
       </div>
     </div>
   </section>
+
   <section class="services">
     <div class="container">
       <div class="row">
-       <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bxs-component"></i></div>
-              <h4 class="title"><a href="">Agritech</a></h4>
-              <p class="description">Through our innovative approach, we help customise agritech solutions to meet the industry needs for growth</p>
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+            <div class="icon-box icon-box-purple">
+              <div class="icon"><i class="bx bxs-devices"></i></div>
+              <h4 class="title">Custom</h4>
+              <p class="description">We develop custom software solutions, android apps , IoT solutions to cater our customer needs</p>
+            </div>
+          </div> 
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><i class="bx bx-cart-alt"></i></div>
+              <h4 class="title">Commerce</h4>
+              <p class="description">We help you put your business up and running through development of e-commerce solutions on the go , depending on your industry</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
             <div class="icon-box icon-box-orange">
               <div class="icon"><i class="bx bxs-bank"></i></div>
-              <h4 class="title"><a href="">Finance</a></h4>
+              <h4 class="title">Finance</h4>
               <p class="description">We customise financial solutions to enable traditional businesses and informal sector persons access banking solutions</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-purple">
-              <div class="icon"><i class="bx bxs-devices"></i></div>
-              <h4 class="title"><a href="">Custom</a></h4>
-              <p class="description">We develop custom software solutions, android apps , IoT solutions to cater our customer needs</p>
+                
+           
+         
+      </div>
+    </div>
+  </section>
+
+    <section class="services">
+    <div class="container">
+      <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+            <div class="icon-box icon-box-pink">
+              <div class="icon"><i class="bx bx-chip"></i></div>
+              <h4 class="title">Augmented Reality</h4>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas asperiores nam possimus. Id qui voluptatum soluta</p>
+            </div>
+          </div>  
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><i class="bx bxs-bot"></i></div>
+              <h4 class="title">Artificial Intelligence</h4>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas asperiores nam possimus. Id qui voluptatum soluta</p>
             </div>
           </div>
-          
           
            
          
@@ -76,7 +103,7 @@ export default {
 
 <style scoped>
 .container{
-  max-width: 1500px;
+  max-width: 1600px;
 }
 .section-title { 
   display: flex;   
@@ -87,6 +114,7 @@ export default {
 }
 .services {
   padding-bottom: 20px;
+  padding-top: 60px;
 
 }
 .row {
@@ -107,7 +135,7 @@ export default {
   text-align: center;
   border: 1px solid #fff;
   height: 400px;
-  width: 500px;
+  width: 300px;
 }
 
 .services .icon {
@@ -141,28 +169,28 @@ export default {
   margin-bottom: 0;
 }
 
-.services .icon-box-pink .icon {
-  background: #fceef3;
+.services .icon-box-red .icon {
+  background: #FFCDD2;
 }
 
-.services .icon-box-pink .icon i {
-  color: #ff689b;
+.services .icon-box-red .icon i {
+  color: #F44336;
 }
 
-.services .icon-box-pink:hover {
-  border-color: #ff689b;
+.services .icon-box-red:hover {
+  border-color: #F44336;
 }
 
-.services .icon-box-cyan .icon {
-  background: #e6fdfc;
+.services .icon-box-yellow .icon {
+  background: #FFF9C4;
 }
 
-.services .icon-box-cyan .icon i {
-  color: #3fcdc7;
+.services .icon-box-yellow .icon i {
+  color: #FFEB3B;
 }
 
-.services .icon-box-cyan:hover {
-  border-color: #3fcdc7;
+.services .icon-box-yellow:hover {
+  border-color: #FFEB3B;
 }
 
 .services .icon-box-green .icon {
@@ -190,15 +218,15 @@ export default {
 }
 
 .services .icon-box-orange .icon {
-  background: #FFE0B2;
+  background: #FFFF8D;
 }
 
 .services .icon-box-orange .icon i {
-  color: #FF9800;
+  color: #FFD600;
 }
 
 .services .icon-box-orange:hover {
-  border-color: #FF9800;
+  border-color: #FFD600;
 }
 
 .services .icon-box-purple .icon {
@@ -211,6 +239,26 @@ export default {
 
 .services .icon-box-purple:hover {
   border-color: #5E35B1;
+}
+.services .icon-box-pink .icon {
+  background: #F8BBD0;
+}
+.services .icon-box-pink .icon i {
+  color: #E91E63;
+}
+
+.services .icon-box-pink:hover {
+  border-color: #E91E63;
+}
+.services .icon-box-cyan .icon {
+  background: #B2EBF2;
+}
+.services .icon-box-cyan .icon i {
+  color: #00BCD4;
+}
+
+.services .icon-box-cyan:hover {
+  border-color: #00BCD4;
 }
 @media (max-width: 991px) {
   .serv {

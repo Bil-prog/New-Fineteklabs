@@ -12,10 +12,11 @@
   </p>
 
   <!-- Grid row -->
-  <div class="row text-center">
+  <div class="row text-center" data-aos="fade-left" data-aos-duration="2000">
 
       
     <!-- Grid column -->
+    <!--<div data-aos="fade-left"> -->
     <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
       <!--Featured image-->
       <div class="view overlay rounded z-depth-1">
@@ -87,9 +88,10 @@
         >
       </div>
     </div>
+   </div>   
   </div>
 
-</div>
+<!--</div>-->
  
 </div>  
 </template>
@@ -103,8 +105,12 @@ export default {
 
 <style scoped>
 #projects{
-  margin-top: 60px;
+  padding-top: 100px;
 }
+/*.row {
+display: flex;
+flex-direction: column;
+}*/
 .section-title{
   display: flex;
   justify-content: center;

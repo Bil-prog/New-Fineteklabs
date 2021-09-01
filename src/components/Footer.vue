@@ -18,20 +18,20 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
               <li>
-                <i class="bx bx-chevron-right"></i> <a href="#">Our Services</a>
+                <i class="bx bx-chevron-right"></i> <a href="#services">Our Services</a>
               </li>
               <li>
-                <i class="bx bx-chevron-right"></i> <a href="#">Projects</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="#">Clients</a>
+                <i class="bx bx-chevron-right"></i> <a href="#projects">Projects</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Contact</a>
+                <a href="#clients">Clients</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#footer">Contact</a>
               </li>
             </ul>
           </div>
@@ -40,26 +40,35 @@
             <h4>Our Services</h4>
             <ul>
               <li>
-                <i class="bx bx-chevron-right">Payments</i> <a href="#"></a>
+                <i class="bx bx-chevron-right"></i>
+                 <a>Payments</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Business</a>
+                <a>Business</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Commerce</a>
+                <a>Commerce</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i> <a href="#">AgriTech</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Finance</a>
+                <a>Finance</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Custom</a>
+                <a>Custom</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a>Augmented Reality</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a>Artificial Intelligence</a>
               </li>
             </ul>
           </div>
@@ -210,7 +219,7 @@ export default {
 }
 @media (max-width: 991px) {
   #footer{
-    margin-top: 1500px;
+    margin-top: 2000px;
   }
   
 }

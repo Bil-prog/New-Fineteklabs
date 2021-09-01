@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify'
-
-import SequentialEntrance from 'vue-sequential-entrance'
-import 'vue-sequential-entrance/vue-sequential-entrance.css'
 import router from './router'
-Vue.use(SequentialEntrance);
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+app.AOS = new AOS.init({ disable: "phone" });
 
 Vue.config.productionTip = false
 

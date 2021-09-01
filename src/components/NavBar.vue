@@ -2,8 +2,7 @@
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
       <h1 class="logo"><a href="index.html">FinetekLabs</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <img src="assets/finetek.png" alt="" class="img-fluid" id="logo">
+      <!-- <img src="../assets/finetek.png" alt="" class="img-fluid" id="logo"> -->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -44,9 +43,9 @@ export default {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 2px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #header .logo a {

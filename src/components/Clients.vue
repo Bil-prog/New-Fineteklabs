@@ -20,7 +20,7 @@
             <div class="col-lg-3 col-md-4 col-xs-6">
                 <div class="client-logo"> <img src="http://fineteklabs.com/perfectpics.png" class="img-fluid" alt=""> </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="col-lg-3 col-md-4 col-xs-6 povo">
                 <div class="client-logo"> <img src="http://fineteklabs.com/sucafina.svg" class="img-fluid" alt=""> </div>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6">
@@ -32,7 +32,7 @@
             <div class="col-lg-3 col-md-4 col-xs-6">
                 <div class="client-logo"> <img src="http://fineteklabs.com/mnc.png" class="img-fluid" alt=""> </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="col-lg-3 col-md-4 col-xs-6 povo">
                 <div class="client-logo"> <img src="http://fineteklabs.com/povo.png" class="img-fluid" alt=""> </div>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6">
@@ -40,6 +40,15 @@
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6">
                 <div class="client-logo"> <img src="http://fineteklabs.com/ideas.png" class="img-fluid" alt=""> </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="client-logo"> <img src="http://medilaballied.com/img/cologo.13171d88.png" class="img-fluid" alt=""> </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 povo">
+                <div class="client-logo"> <img src="https://solidlaunch.co.ke/wp-content/uploads/2020/08/solidlogo3.png" class="img-fluid" alt=""> </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 povo">
+                <div class="client-logo"> <img src="http://arctis.co.ke/images/New/arctisLogo.png" class="img-fluid" alt=""> </div>
             </div>
 
         </div>
@@ -58,7 +67,7 @@ export default {
 
 <style scoped>
 #clients {
-    max-height: 800px;
+    max-height: 880px;
 }
  .section-title { 
   display: flex;   
@@ -95,7 +104,11 @@ h2::after {
      width: 50%
  }
  .col-lg-3{
-margin-bottom: 10px;
+    margin-bottom: 15px;
+    transition: transform .5s;
+ }
+ .col-lg-3:hover{
+     transform: scale(1.3);
  }
 
  #clients {
@@ -129,4 +142,25 @@ margin-bottom: 10px;
  #clients img {
      transition: all 0.4s ease-in-out
  }
+ @media (width: 1024px) {
+  .povo{
+    width: 400px;
+    height: 150px;
+    margin-left: 120px;
+    object-fit: contain;
+    display: flex;
+    display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+  }
+  
+}
 </style>
